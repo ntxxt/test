@@ -1,1 +1,6 @@
-extract sequence from hdf5 file with slurm and gpu
+1. extract sequence from hdf5 file with slurm and gpu
+---
+squeue -u 'username'
+scancel 'jobid'
+sbatch 'a.sh'
+---
